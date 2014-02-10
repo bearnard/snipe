@@ -1,0 +1,3 @@
+tlslite==0.4.6
+gevent=1.0
+umysql==2.61
