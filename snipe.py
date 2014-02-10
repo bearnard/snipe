@@ -47,7 +47,7 @@ class Snipe(WSGIServer):
                 break
             except gevent.socket.error, e:
                 if e.errno == errno.EAGAIN:
-                    gevent.sleep(0.1)
+                    gevent.sleep(0)
                 else:
                     raise e
 
